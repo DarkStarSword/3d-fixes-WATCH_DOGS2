@@ -108,7 +108,8 @@ Installation
    profile - choose yes.
 
 The game has mostly been tested using the 376.33 driver. It may work on others,
-but if you run into problems, try that driver first.
+but if you run into problems, try that driver first. If using SLI this is NOT
+OPTIONAL, as more recent drivers have a *MASSIVE* performance regression!
 
 Do not set pixel density higher than 1.30 (There is a report that it breaks the
 sky box).
