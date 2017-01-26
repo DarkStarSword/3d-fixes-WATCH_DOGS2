@@ -13,6 +13,8 @@ Update v1.5 (WATCH_DOGS2 v1.09.154)
 - Fix is now distributed as a 7z file to keep the filesize down (it would have
   been a 150MB zip file, compared to a 7MB 7z file. You can use [7-zip][2] to
   extract it).
+- Fixed road dirt decals (happened to notice they were out while taking an
+  ultra-high convergence screen shot with the quad copter)
 
 Update v1.4
 -----------
