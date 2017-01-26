@@ -1,6 +1,19 @@
 WATCH_DOGS 2
 ============
 
+Update v1.5 (WATCH_DOGS2 v1.09.154)
+-----------------------------------
+- Re-fixed shadows, etc. for WATCH_DOGS2 v1.09.154 update
+- Fixed new rediculous shadow map size being stereoised (3DMigoto update)
+- Disabled compatibility mode that was added in the 378.48 driver
+- Scripted fixes applied to *all* (1.4GB!) shaders found in the patch.dat file,
+  not just those seen used so far. Should fix Ansel in *all* circumstances
+  along with any other shadows, reflections, etc. that might have been missing
+  in any rare circumstances.
+- Fix is now distributed as a 7z file to keep the filesize down (it would have
+  been a 150MB zip file, compared to a 7MB 7z file. You can use [7-zip][2] to
+  extract it).
+
 Update v1.4
 -----------
 - HUD kill switch will now also kill target lines and object highlights
@@ -13,9 +26,9 @@ Update v1.4
 - Removed artefacts in screen space reflections caused by a [game bug][1] in 1.09
   [1]: https://twitter.com/DarkStarSword/status/821723038009802752
 
-Update v1.3 (WATCH_DOGS2 1.09)
+Update v1.3 (WATCH_DOGS2 v1.09)
 ------------------------------
-- Re-fixed reflections, etc. for WATCH_DOGS2 1.09 update
+- Re-fixed reflections, etc. for WATCH_DOGS2 v1.09 update
 - Fixed an issue where glass bottles would be moved to crosshair depth after
   flying into them with the quad copter.
 - Removed leaf disable key (no further reports of leaves desynchronising, so I
@@ -83,7 +96,10 @@ Fixed
 
 Installation
 ------------
-1. Extract the zip file under WATCH_DOGS2\bin
+1. Extract the 7z file under WATCH_DOGS2\bin ([7-Zip][2] and WinRAR can open 7z
+   files)
+
+   [2]: http://www.7-zip.org/
 
 2. Launch the game. The first time you run it (and again after any driver
    update) you will get a UAC prompt for Rundll32 to install the driver
@@ -170,12 +186,6 @@ To remove the Ansel HUD for better screenshots in this mode, open the d3dx.ini,
 search for "Ansel" and uncomment the two ShaderOverride sections. Back in game
 press F10 to reload the config and voila - no HUD :) Note that the various
 filters Ansel provides only work in one eye in this game.
-
-Note that there are very likely still broken effects (especially lights,
-shadows and reflections) while using Ansel in many areas / times of day /
-weather conditions - I've fixed a bunch of them, but they only dump on demand
-when Ansel is used, so finding them all is a near impossible task. You can
-still use Ansel's stereo screenshot option if there are broken shaders.
 
 Known Issues
 ------------
