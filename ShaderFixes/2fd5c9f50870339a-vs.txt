@@ -221,6 +221,7 @@ dcl_output o1.xyz
 dcl_output o2.xyzw
 dcl_output_siv o3.xyzw, position
 dcl_temps 7
+
 // 3DMigoto StereoParams:
 dcl_resource_texture2d (float,float,float,float) t125
 
