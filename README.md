@@ -1,6 +1,18 @@
 WATCH_DOGS 2
 ============
 
+Update v1.6 (WATCH_DOGS2 v1.016.189 update)
+- Re-fixed 3D targeting lines
+- Re-adjusted 3D HUD
+- Re-fixed reflections, etc. for WATCH_DOGS2 v1.016.189 update
+- Re-enabled reflections of glass surfaces in screen space reflections
+  (artefact causing game bug has been fixed)
+
+Note that the old driver recommendations for SLI still stand - that is, if
+using SLI stick to 376.33 for a major performance boost. If that is not an
+option due to recent graphics cards, disable SLI in the control panel for a
+less impressive but still vitally important performance boost.
+
 Update v1.5 (WATCH_DOGS2 v1.09.154)
 -----------------------------------
 - Re-fixed shadows, etc. for WATCH_DOGS2 v1.09.154 update
