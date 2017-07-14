@@ -13,6 +13,9 @@ using SLI stick to 376.33 for a major performance boost. If that is not an
 option due to recent graphics cards, disable SLI in the control panel for a
 less impressive but still vitally important performance boost.
 
+Driver 384.76 is known to cause a crash on launch (unrelated to the fix) - if
+getting a crash, downgrade to an older driver (376.33 is recommended).
+
 Update v1.5 (WATCH_DOGS2 v1.09.154)
 -----------------------------------
 - Re-fixed shadows, etc. for WATCH_DOGS2 v1.09.154 update
@@ -122,6 +125,9 @@ Installation
 The game has mostly been tested using the 376.33 driver. It may work on others,
 but if you run into problems, try that driver first. If using SLI this is NOT
 OPTIONAL, as more recent drivers have a *MASSIVE* performance regression!
+
+Driver 384.76 is known to cause a crash on launch (unrelated to the fix) - if
+getting a crash, downgrade to an older driver (376.33 is recommended).
 
 Do not set pixel density higher than 1.30 (There is a report that it breaks the
 sky box).
